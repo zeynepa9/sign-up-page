@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="left-side">
+            <h1>sign up</h2>
+            <img src="./5423351_Mobile-login.jpg" alt="sign-up-image">
+            <p>sign up today!!!!!!!!!</p>
+        </div>
+
+        <div class="right-side"> 
+            <form class="signup-form">
+                <h2>Get Started</h2>
+                <!-- İsim, e-posta ve şifre kısımlarını tek bir bölümde toplayın -->
+                <div class="form-section">
+                    <div id="input-field">
+                    <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                    <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                </div>
+                <div id="input-field">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+                <div id="input-field">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                </div>
+                    <button type="submit" class="registerbtn">Create Account</button>
+                </div>
+                <p class="signin">Already have an account? <a href="login.html">Sign in</a></p>
+            </form>
+        </div>
+       
+    </div>
     
 
 
